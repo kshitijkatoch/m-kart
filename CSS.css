@@ -1,0 +1,44 @@
+.steps{
+    background-color: skyblue;
+}
+header {
+    background-color: skyblue;
+}
+
+header img {
+    max-width: 10%;
+}
+
+footer{
+    background-color: skyblue;
+}
+
+footer img {
+    width: 10%;
+}
+.modal-container{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0 ,0,0.5);
+    height: 100vh;
+    width: 100%;
+    display: none;
+    backdrop-filter: blur(5px);
+}
+.modal{
+    
+    margin: auto;
+    height: 90%;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+}
+form section div.container{
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+select{
+    z-index: 1;
+}
